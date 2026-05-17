@@ -119,7 +119,7 @@ h3 {
   background: transparent;
   color: var(--color-accent);
   border: 1px solid var(--color-accent);
-  padding: 13px 27px;
+  padding: 14px 28px;
 }
 .btn-secondary:hover {
   background: var(--color-accent-subtle);
@@ -476,9 +476,12 @@ h3 {
 @media (max-width: 768px) {
   .hero-cta {
     flex-direction: column;
+    align-items: stretch;
     gap: var(--gap-sm);
   }
-  .hero-cta .btn {
+  .hero-cta .btn,
+  .hero-cta a {
+    display: block;
     width: 100%;
     text-align: center;
     box-sizing: border-box;
