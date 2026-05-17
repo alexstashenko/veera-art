@@ -2,14 +2,14 @@
 
 :root {
   /* Colors */
-  --color-bg:           #FFFFFF;
-  --color-text:         #0A0A0A;
+  --color-bg:           #F9F8F6;   /* Paper White — убирает ощущение шаблона */
+  --color-text:         #1A1A1A;   /* Мягкий графит вместо угольного */
   --color-text-muted:   #6B6B6B;
   --color-text-light:   #9E9E9E;
 
-  --color-accent:        #6B1A2A;
-  --color-accent-hover:  #541520;
-  --color-accent-subtle: #F5ECEE;
+  --color-accent:        #611217;   /* Oxblood / Black Cherry */
+  --color-accent-hover:  #4A0E14;
+  --color-accent-subtle: #F5EBEC;
   --color-accent-border: #D4A0A9;
 
   --color-border:    #E8E8E8;
