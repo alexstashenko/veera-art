@@ -473,6 +473,21 @@ h3 {
   flex-wrap: wrap;
 }
 
+@media (max-width: 768px) {
+  .hero-cta {
+    flex-direction: column;
+    gap: var(--gap-sm);
+  }
+  .hero-cta .btn {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .hero-subtitle {
+    max-width: 100%;
+  }
+}
+
 .hero-visual {
   background: var(--color-surface);
   aspect-ratio: 4/5;
