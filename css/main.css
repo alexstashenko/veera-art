@@ -353,13 +353,14 @@ h3 {
   padding: 40px;
   background: var(--color-bg);
   transition: border-color 0.2s;
+  display: flex;
+  flex-direction: column;
 }
 .offer-card:hover {
   border-color: var(--color-accent);
 }
-.offer-card.featured {
-  border-color: var(--color-accent);
-  background: var(--color-accent-subtle);
+.offer-card .btn {
+  margin-top: auto;
 }
 
 /* ─── Two columns ───────────────────────────────── */
@@ -368,7 +369,7 @@ h3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--gap-xl);
-  align-items: start;
+  align-items: stretch;
 }
 .two-col-60-40 {
   display: grid;
