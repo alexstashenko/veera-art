@@ -7,10 +7,10 @@
   --color-text-muted:   #6B6B6B;
   --color-text-light:   #9E9E9E;
 
-  --color-accent:        #611217;   /* Oxblood / Black Cherry */
-  --color-accent-hover:  #4A0E14;
-  --color-accent-subtle: #F5EBEC;
-  --color-accent-border: #D4A0A9;
+  --color-accent:        #2C2C2C;   /* Dark charcoal */
+  --color-accent-hover:  #111111;
+  --color-accent-subtle: #EFEFED;
+  --color-accent-border: #C4C4C4;
 
   --color-border:    #E8E8E8;
   --color-surface:   #F7F7F7;
